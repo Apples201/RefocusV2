@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Todo-with-Timer/build/static/css/main.2d60e753.css",
+    "main.js": "/Todo-with-Timer/build/static/js/main.99facea7.js",
+    "static/js/787.63e47474.chunk.js": "/Todo-with-Timer/build/static/js/787.63e47474.chunk.js",
+    "index.html": "/Todo-with-Timer/build/index.html",
+    "main.2d60e753.css.map": "/Todo-with-Timer/build/static/css/main.2d60e753.css.map",
+    "main.99facea7.js.map": "/Todo-with-Timer/build/static/js/main.99facea7.js.map",
+    "787.63e47474.chunk.js.map": "/Todo-with-Timer/build/static/js/787.63e47474.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d60e753.css",
+    "static/js/main.99facea7.js"
+  ]
+}
