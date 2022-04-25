@@ -42,6 +42,20 @@ const Timer = () =>{
        setPaused(true);
        setWorking(true);
     }
+    const workingHandler = (e) =>{
+        e.preventDefault();
+        //If working set timeleft to 5 mins
+        if(working){
+            setTimeLeft(300);
+        }
+        //Else set time left to 25 minutes
+        else{
+            setTimeLeft(1500)
+        }
+        //Set to opposite working value and set paused to true
+        setWorking(!working);
+        setPaused(true);
+    }
     return (
         <div className="timer w-75 mx-auto">
             <h1 className={(working)?("working"):("break")}>{(working)?("WORKING"):("BREAK")}</h1>
@@ -51,6 +65,9 @@ const Timer = () =>{
             </button>
             <button onClick ={resetHandler}>
                RESET
+            </button>
+            <button onClick={workingHandler}>
+                {(working)?("Break"):("Working")}
             </button>
         </div>
     )
