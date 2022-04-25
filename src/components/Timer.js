@@ -39,7 +39,8 @@ const Timer = () =>{
     const resetHandler = (e) =>{
        e.preventDefault();
        setTimeLeft(1500);
-       setPaused(!paused);
+       setPaused(true);
+       setWorking(true);
     }
     return (
         <div className="timer w-75 mx-auto">
