@@ -8,22 +8,21 @@ const Timer = () =>{
         if (!timeLeft){ 
             if(working){
                 //SET TO BREAK TIME LIMIT
-                setWorking(!working);
                 setTimeLeft(300);
             }
             else{
                 //SET TO WORKING TIME LIMIT
-                setWorking(!working);
                 setTimeLeft(1500);
             }
+            setWorking(!working);
             return;};
-         const intervalId = setInterval(() => {
-           if(!paused){
-          setTimeLeft(timeLeft - 1);
-         }
-      }, 1000);
+        const intervalId = setInterval(() => {
+            if(!paused){
+                setTimeLeft(timeLeft - 1);
+            }
+        }, 1000);
         return () => clearInterval(intervalId);
-      }, [timeLeft, paused, working]);
+    }, [timeLeft, paused, working]);
     
     const timeToString = (timeLeft) =>{
         let value = "";
