@@ -1,5 +1,5 @@
 Project is available to use here:
-https://apples201.github.io/Todo-List/build/
+https://apples201.github.io/Todo-with-Timer/build/
 
 # Getting Started with Create React App
 
