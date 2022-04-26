@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Todo-with-Timer/build/static/css/main.1d079f2f.css",
-    "main.js": "/Todo-with-Timer/build/static/js/main.897213bc.js",
+    "main.css": "/Todo-with-Timer/build/static/css/main.5eb4a489.css",
+    "main.js": "/Todo-with-Timer/build/static/js/main.a67f3896.js",
     "static/js/787.63e47474.chunk.js": "/Todo-with-Timer/build/static/js/787.63e47474.chunk.js",
     "index.html": "/Todo-with-Timer/build/index.html",
-    "main.1d079f2f.css.map": "/Todo-with-Timer/build/static/css/main.1d079f2f.css.map",
-    "main.897213bc.js.map": "/Todo-with-Timer/build/static/js/main.897213bc.js.map",
+    "main.5eb4a489.css.map": "/Todo-with-Timer/build/static/css/main.5eb4a489.css.map",
+    "main.a67f3896.js.map": "/Todo-with-Timer/build/static/js/main.a67f3896.js.map",
     "787.63e47474.chunk.js.map": "/Todo-with-Timer/build/static/js/787.63e47474.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d079f2f.css",
-    "static/js/main.897213bc.js"
+    "static/css/main.5eb4a489.css",
+    "static/js/main.a67f3896.js"
   ]
 }
