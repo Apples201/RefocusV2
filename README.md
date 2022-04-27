@@ -1,5 +1,5 @@
-Project is available to use here:
-https://apples201.github.io/Todo-with-Timer/build/
+RefocusV2 is available to use here:
+[https://apples201.github.io/RefocusV2/build/](https://apples201.github.io/RefocusV2/build/)
 
 # Getting Started with Create React App
 
